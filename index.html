@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taste of Bangalore | Authentic South Indian Cuisine</title>
+    <meta name="description" content="Experience authentic Bangalore flavours, traditional recipes, rich spices, and the soul of Karnataka cuisine at Taste of Bangalore." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo-link">
+          <img src="/logo.png" alt="Taste of Bangalore Logo" class="brand-logo" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#signature">Signature Dishes</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </button>
+          <a href="#reservation" class="btn btn-primary">Book a Table</a>
+          <button class="mobile-menu-btn" aria-label="Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mobile-nav">
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#signature">Signature Dishes</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#reservation" class="btn btn-primary mobile-book">Book a Table</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <h1 class="hero-title">Authentic Bangalore Flavours,<br/>Served Fresh</h1>
+        <p class="hero-subtitle">Experience traditional recipes, rich spices, and the soul of Karnataka cuisine.</p>
+        <div class="hero-buttons">
+          <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+          <a href="#menu" class="btn btn-secondary">View Menu</a>
+        </div>
+      </div>
+      <!-- Floating food elements -->
+      <div class="floating-food food-1"></div>
+      <div class="floating-food food-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Our Story</h2>
+          <h3 class="section-subtitle">The Heart of Karnataka, On Your Plate</h3>
+          <p>Born out of a deep love for Bangalore's vibrant culinary heritage, Taste of Bangalore brings the nostalgic aromas and rich traditions of South Indian cooking to life. Every dish tells a story of local ingredients, ancestral recipes, and the warmth of a classic Bangalorean home.</p>
+          <p>From our freshly ground masalas to the rhythmic pouring of filter coffee, we strive to offer an authentic dining experience that celebrates the true soul of traditional cooking.</p>
+          <a href="#menu" class="btn btn-outline mt-4">Discover Our Food</a>
+        </div>
+        <div class="about-image reveal fade-right">
+          <div class="image-wrapper">
+            <!-- Using unsplash source for beautiful restaurant interior -->
+            <img src="/placeholder.png" alt="Warm restaurant ambiance" class="radius-lg shadow-lg" />
+            <div class="experience-badge">
+              <span class="years">20+</span>
+              <span class="text">Years of<br/>Tradition</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Dishes Section -->
+    <section id="signature" class="signature section-padding bg-cream">
+      <div class="container text-center reveal">
+        <h2 class="section-title">Signature Dishes</h2>
+        <p class="section-desc mx-auto">Handcrafted perfection. Our most beloved recipes that define the Taste of Bangalore.</p>
+        
+        <div class="dishes-grid mt-5">
+          <!-- Dish 1 -->
+          <div class="dish-card reveal fade-up" style="transition-delay: 0.1s">
+            <div class="dish-img-wrap">
+              <img src="/placeholder.png" alt="Masala Dosa" />
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h4>Masala Dosa</h4>
+                <span class="price">₹120</span>
+              </div>
+              <p>Crispy golden crepe made from fermented rice and lentil batter, filled with a spiced potato mash.</p>
+            </div>
+          </div>
+          <!-- Dish 2 -->
+          <div class="dish-card reveal fade-up" style="transition-delay: 0.2s">
+            <div class="dish-img-wrap">
+              <img src="/placeholder.png" alt="Bisi Bele Bath" />
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h4>Bisi Bele Bath</h4>
+                <span class="price">₹150</span>
+              </div>
+              <p>A wholesome, aromatic blend of rice, lentils, vegetables, and a unique 30-spice blend from Karnataka.</p>
+            </div>
+          </div>
+          <!-- Dish 3 -->
+          <div class="dish-card reveal fade-up" style="transition-delay: 0.3s">
+            <div class="dish-img-wrap">
+              <img src="/placeholder.png" alt="Mysore Pak" />
+            </div>
+            <div class="dish-info">
+              <div class="dish-header">
+                <h4>Mysore Pak</h4>
+                <span class="price">₹80</span>
+              </div>
+              <p>The royal sweet of Mysore, crafted with generous amounts of pure ghee, sugar, and gram flour.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section id="menu" class="menu section-padding">
+      <div class="container reveal">
+        <div class="text-center">
+          <h2 class="section-title">Our Menu</h2>
+          <p class="section-desc mx-auto">Explore our culinary offerings, prepared fresh daily.</p>
+        </div>
+
+        <div class="menu-tabs mt-4">
+          <button class="tab-btn active" data-target="breakfast">Breakfast</button>
+          <button class="tab-btn" data-target="lunch">Lunch</button>
+          <button class="tab-btn" data-target="desserts">Desserts</button>
+          <button class="tab-btn" data-target="beverages">Beverages</button>
+        </div>
+
+        <div class="menu-content mt-5">
+          <!-- Breakfast -->
+          <div class="menu-pane active" id="breakfast">
+            <div class="menu-list">
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Thatte Idli</h5>
+                  <p>Steamed flat rice cakes served with sambar and coconut chutney.</p>
+                </div>
+                <div class="menu-item-price">₹60</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Medu Vada</h5>
+                  <p>Crispy lentil donuts, fluffy inside and crispy outside.</p>
+                </div>
+                <div class="menu-item-price">₹50</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Chow Chow Bath</h5>
+                  <p>A combo of spicy Khara Bath and sweet Kesari Bath.</p>
+                </div>
+                <div class="menu-item-price">₹110</div>
+              </div>
+            </div>
+          </div>
+          <!-- Lunch -->
+          <div class="menu-pane" id="lunch">
+            <div class="menu-list">
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>South Indian Thali</h5>
+                  <p>Rice, sambar, rasam, 2 veg curries, curd, papad, and a sweet.</p>
+                </div>
+                <div class="menu-item-price">₹220</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Ragi Mudde & Bassaru</h5>
+                  <p>Traditional finger millet balls served with a hearty lentil and greens gravy.</p>
+                </div>
+                <div class="menu-item-price">₹180</div>
+              </div>
+            </div>
+          </div>
+          <!-- Desserts -->
+          <div class="menu-pane" id="desserts">
+            <div class="menu-list">
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Obbattu / Holige</h5>
+                  <p>Sweet flatbread stuffed with a blend of lentil, jaggery, and coconut.</p>
+                </div>
+                <div class="menu-item-price">₹90</div>
+              </div>
+            </div>
+          </div>
+          <!-- Beverages -->
+          <div class="menu-pane" id="beverages">
+            <div class="menu-list">
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Filter Coffee</h5>
+                  <p>Strong, frothy traditional South Indian coffee brewed with chicory.</p>
+                </div>
+                <div class="menu-item-price">₹40</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-text">
+                  <h5>Badam Milk</h5>
+                  <p>Warm milk flavored with almonds, saffron, and cardamom.</p>
+                </div>
+                <div class="menu-item-price">₹70</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews section-padding bg-cream">
+      <div class="container text-center reveal">
+        <h2 class="section-title">What Our Guests Say</h2>
+        <div class="reviews-grid mt-5">
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"The Bisi Bele Bath took me straight back to my grandmother's kitchen in Malleshwaram. Absolutely authentic and heartwarming."</p>
+            <p class="reviewer">- Vanshdeep Mishra</p>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Best filter coffee in the city! The ambiance is so warm, and the staff makes you feel right at home."</p>
+            <p class="reviewer">- Vanshdeep Mishra</p>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"A premium dining experience that hasn't lost touch with its local roots. The Masala Dosa is incredibly crisp."</p>
+            <p class="reviewer">- Vanshdeep Mishra</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery section-padding">
+      <div class="container reveal">
+        <h2 class="section-title text-center">A Glimpse of Tradition</h2>
+        <div class="gallery-grid mt-5">
+          <div class="gallery-item"><img src="/placeholder.png" alt="Restaurant interior" /></div>
+          <div class="gallery-item"><img src="/placeholder.png" alt="Spices" /></div>
+          <div class="gallery-item"><img src="/placeholder.png" alt="Traditional Serving" /></div>
+          <div class="gallery-item"><img src="/placeholder.png" alt="Filter Coffee" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="contact" class="contact section-padding bg-cream">
+      <div class="container reveal">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2 class="section-title">Visit Us</h2>
+            <p class="mb-4">Come experience the true taste of Bangalore. We look forward to serving you.</p>
+            
+            <div class="info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--deep-red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <div>
+                <h5>Location</h5>
+                <p>PST hostel BEML layout,<br/>Bangalore 560037</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--deep-red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <div>
+                <h5>Phone</h5>
+                <p>+91 1234567890</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--deep-red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <div>
+                <h5>Opening Hours</h5>
+                <p>Mon - Sun: 7:00 AM - 10:30 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124424.36398939529!2d77.51980838116518!3d12.954005936735509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="radius-lg shadow-sm">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home">
+            <img src="/logo.png" alt="Taste of Bangalore Logo" class="footer-logo" />
+          </a>
+          <p class="mt-3">Bringing the authentic flavors and rich traditions of Karnataka cuisine to your table.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Book a Table</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect With Us</h4>
+          <div class="social-icons mt-3">
+            <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+            <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center mt-5">
+        <p>&copy; <span id="year"></span> Vanshdeep Mishra. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/911234567890" class="floating-wa" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    </a>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
